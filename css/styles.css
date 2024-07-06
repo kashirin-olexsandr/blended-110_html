@@ -62,3 +62,48 @@ header .container {
 .logo-first {
   color: #28a745;
 }
+/* HERO */
+.hero {
+  padding-top: 279px;
+  padding-bottom: 282px;
+  background-color: #2f9368;
+}
+
+.hero-container {
+}
+
+.hero-title {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hero-text {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  color: #e9e9e9;
+  line-height: 1.64736;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  border-radius: 5px;
+  border: none;
+  background: #28a745;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.56444;
+  height: 48px;
+  min-width: 165px;
+  display: block;
+  margin: 0 auto;
+}
