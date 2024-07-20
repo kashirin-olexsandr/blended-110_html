@@ -193,3 +193,42 @@ header .container {
 .cases-item {
   width: calc((100% - 21px * 2) / 3);
 }
+.blog {
+  background: #0284d0;
+}
+.blog > .container {
+  display: flex;
+}
+.blog-container {
+  width: 690px;
+  padding: 80px 56px 80px 28px;
+}
+
+.blog-subtitle {
+  font-size: 20px;
+  line-height: 165%;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 126%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.blog-text {
+  font-size: 18px;
+  line-height: 156%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.blog-btn {
+  font-size: 18px;
+  line-height: 156%;
+  color: #fff;
+  background: #0284d0;
+  padding: 10px 36px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
