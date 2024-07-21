@@ -260,6 +260,7 @@ header .container {
   line-height: 1.26;
 }
 .subscribe-text {
+  font-weight: 400;
   margin-bottom: 24px;
   line-height: 1.56;
 }
@@ -275,9 +276,9 @@ header .container {
   padding: 20px 0;
 }
 .subtitle {
-  text-align: center;
+  font-weight: 400;
   font-size: 25px;
-  line-height: 1.2672;
+  line-height: 1.27;
   text-align: center;
   color: #333;
   margin-bottom: 12px;
