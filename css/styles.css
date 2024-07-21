@@ -122,8 +122,7 @@ header .container {
   width: 670px;
   height: 460px;
 }
-.about-img {
-}
+
 .about-info {
   width: 690px;
   height: 460px;
@@ -164,8 +163,7 @@ header .container {
   text-align: center;
   color: #333;
 }
-.container {
-}
+
 .container-cases {
   padding: 0 28px;
 }
@@ -231,4 +229,107 @@ header .container {
   padding: 10px 36px;
   border: 1px solid #fff;
   border-radius: 5px;
+}
+
+/*---TEAM---*/
+
+.container-team {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.team {
+  padding: 80px 0;
+  text-align: center;
+  color: #333;
+}
+.container {
+  padding: 0 28px;
+}
+
+.text-team {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.team-title {
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.subscribe-text {
+  margin-bottom: 24px;
+  line-height: 1.56;
+}
+.team-list {
+  display: flex;
+
+  gap: 21px;
+}
+.team-item {
+  width: calc((100% - 20px * 2) / 3);
+}
+.team-cont {
+  padding: 20px 0;
+}
+.subtitle {
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.2672;
+  text-align: center;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.icon-item {
+  width: 40px;
+  height: 40px;
+}
+.ison-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-pic:hover,
+.icon-pic:focus {
+  fill: #0284d0;
+}
+.icon-pic {
+  fill: #fff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-item:hover .overlay-icon-list {
+  transform: translateY(0);
+}
+
+.div-anim {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-icon-list {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
